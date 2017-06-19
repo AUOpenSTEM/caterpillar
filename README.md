@@ -1,4 +1,4 @@
-# OpenSTEM caterpillar - http://openstem.com.au
+# OpenSTEM caterpillar - https://openstem.com.au
 Robot Caterpillar, 3D printed frame, Arduino controlled
 
 Proto 1 - notes
@@ -8,7 +8,7 @@ Built over December 2014, January 2015 by Arjen Lentz
 Acknowledgement of heritage:
   This model is roughly based on a design from 2009
   http://letsmakerobots.com/robot/project/polymorph-caterpillar
-  That one used polymorph, PixAXE controlled, with primitive sensors.
+  That one used polymorph, PicAXE controlled, with primitive sensors.
 
 The OpenSTEM proto1 caterpillar is autonomous, running on a simple ruleset.
 It moves forward until it encounters an object less than 10cm away
@@ -22,7 +22,7 @@ The gyro/accel module (MPU-6050 based module) isn't yet used, although the base 
 It allows the caterpillar to figure out whether it's upright, on its left or right side, or upside down.
 It can then twist and wriggle appropriately to get itself upright in case of mishaps!
 
-LEDs can be added (antennae, tail light) - I'll do this shortly.
+LEDs can be added (antennae, tail light).
 
 Control with an Arduino Pro Mini (5V) or Arduino Nano.
 See the comments in the code for pinout used.
